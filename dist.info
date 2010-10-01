@@ -1,0 +1,10 @@
+--- This file is part of LuaDist project
+
+name = "lcms"
+version = "1.19"
+
+desc = "LittleCMS is a CMM, a color management engine"
+author = "Marti Maria"
+license = "MIT"
+url = "http://www.littlecms.com"
+maintainer = "Peter Kapec"
