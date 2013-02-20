@@ -1,0 +1,38 @@
+type = "x86"
+arch = "Windows"
+author = "Marti Maria"
+desc = "LittleCMS is a CMM, a color management engine"
+name = "lcms"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[bin\liblcms.dll]],
+}
+,
+Header = {
+[[include\icc34.h]],
+[[include\lcms.h]],
+}
+,
+Documentation = {
+[[share\lcms\doc\\LCMSAPI.TXT]],
+[[share\lcms\doc\\TUTORIAL.TXT]],
+}
+,
+Data = {
+[[share\lcms\AUTHORS]],
+[[share\lcms\COPYING]],
+[[share\lcms\ChangeLog]],
+[[share\lcms\NEWS]],
+[[share\lcms\README.1ST]],
+}
+,
+Library = {
+[[lib\liblcms.dll.a]],
+}
+,
+}
+
+license = "MIT"
+url = "http://www.littlecms.com"
+version = "1.19"
