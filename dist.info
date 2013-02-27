@@ -1,0 +1,34 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Marti Maria"
+desc = "LittleCMS is a CMM, a color management engine"
+name = "lcms"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/liblcms.so]],
+}
+,
+Documentation = {
+[[share/lcms/doc//TUTORIAL.TXT]],
+[[share/lcms/doc//LCMSAPI.TXT]],
+}
+,
+Header = {
+[[include/icc34.h]],
+[[include/lcms.h]],
+}
+,
+Data = {
+[[share/lcms/AUTHORS]],
+[[share/lcms/COPYING]],
+[[share/lcms/ChangeLog]],
+[[share/lcms/NEWS]],
+[[share/lcms/README.1ST]],
+}
+,
+}
+
+license = "MIT"
+url = "http://www.littlecms.com"
+version = "1.19"
